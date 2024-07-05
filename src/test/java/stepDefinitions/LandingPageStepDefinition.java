@@ -42,7 +42,7 @@ public class LandingPageStepDefinition {
 		       
 		}
 		
-		@When("And Added {String} items of the selected product to cart")
+		//@When("And Added {String} items of the selected product to cart")
 		public void Added_items_of_the_selected_product_to_cart(String name)
 		{
 			System.out.println();
